@@ -1,0 +1,393 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"Heels",
+            "category":"women",
+            "brand":"Bata",
+            "price":3000,
+            "description":"Women Rose Gold Embellished Party Wedge Heels ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/products/1595_Rose_Gold_1_360x.jpg?v=1704799626"
+        },
+        {
+            "id":2,
+            "name":"Heels",
+            "category":"women",
+            "brand":"Clarks",
+            "price":4500,
+            "description":"Women Pink Ankle Loop Embellished Party Block Heels ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/F0534-N_Pink_1_abd5a47a-dc07-4082-b611-2d0d2e3f3f51_360x.jpg?v=1713419096"
+        },
+        {
+            "id":3,
+            "name":"Heels",
+            "category":"women",
+            "brand":"Red_Tape",
+            "price":3500,
+            "description":"Women Black Textured One Toe Solid Wedge Heels ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/F0534-N_Black_1_cbb206e0-2c1f-4ca7-be82-b4f9bdc7d7b6_360x.jpg?v=1713419080"
+        },
+        {
+            "id":4,
+            "name":"Casual_shoes",
+            "category":"men",
+            "brand":"Red_Chief",
+            "price":4500,
+            "description":"Red Chief Genuine Leather Low Ankle Lace Up Casual Fit Shoes For Men |RC3429 022",
+            "image":"https://d2lo0tepqt73yr.cloudfront.net/RC3429%20022_1709666180237.jpeg"
+        },  {
+            "id":5,
+            "name":"Casual_shoes",
+            "category":"men",
+            "brand":"Woodland",
+            "price":5500,
+            "description":"Crafted from durable nubuck, this slip-on casual shoe for men is set on flexible rubber outsole and soft PU foam insole (4mm). ",
+            "image":"https://www.woodlandworldwide.com/insta_1.JPG"
+        },  {
+            "id":6,
+            "name":"Casual_shoes",
+            "category":"men",
+            "brand":"Adidas",
+            "price":3530,
+            "description":"Beige canvas shoes from Woodland is made from the durable canvas, the upper is set on a durable outsole that is flexible and comfortable",
+            "image":"https://assets.woodlandworldwide.app/compressed/images/FGC0310S2512A/BEIGE/FGC0310S2512A_003_1.jpg"
+        },
+        {
+            "id":7,
+            "name":"Boots",
+            "category":"women",
+            "brand":"Red_Tape",
+            "price":5500,
+            "description":"Women Brown Regular Boots ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/17885_360x.jpg?v=1705053933"
+        },
+        {
+            "id":8,
+            "name":"Boots",
+            "category":"women",
+            "brand":"Bata",
+            "price":4200,
+            "description":"Women Brown Wedge Heel Regular Boots ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/800347_Navy_2_46aeb5aa-88d2-42ae-a803-ac4473e783d9_360x.jpg?v=1720605340"
+        },
+        {
+            "id":9,
+            "name":"Boots",
+            "category":"women",
+            "brand":"Nike",
+            "price":7890,
+            "description":"Women Lace-Ups Mid-Top Wedge Regular Boots ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/products/800398_Black_1_360x.jpg?v=1710764198"
+        },
+        {
+            "id":10,
+            "name":"SANDALS",
+            "category":"women",
+            "brand":"Bata",
+            "price":3000,
+            "description":"Women Gold Embellished Party Block Sandals ",
+            "image":"https://inc5shop.com/cdn/shop/files/600664GOLD.jpg?v=1703340681&width=823"
+        },
+        {
+            "id":11,
+            "name":"SANDALS",
+            "category":"women",
+            "brand":"Clarks",
+            "price":2690,
+            "description":"Women Blue Jute Finish Woven Design Wedge Heels",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/300848_Blue_1_28dff062-261e-41fb-b540-3451424d6133_360x.jpg?v=1716792279"
+        },
+        {
+            "id":12,
+            "name":"SANDALS",
+            "category":"women",
+            "brand":"Red_Tape",
+            "price":3500,
+            "description":"Women Black Textured One Toe Solid Wedge Heels ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/F0534-N_Black_1_cbb206e0-2c1f-4ca7-be82-b4f9bdc7d7b6_360x.jpg?v=1713419080"
+        },
+        {
+            "id":13,
+            "name":"Boots",
+            "category":"men",
+            "brand":"Sparx",
+            "price":6000,
+            "description":"Sparx Genuine Leather High Ankle Lace Up TAN Casual Boots For Men |RC3857 006",
+            "image":"https://d2lo0tepqt73yr.cloudfront.net/RC3857%20006-1_1714075206226.jpeg"
+        },  {
+            "id":14,
+            "name":"Boots",
+            "category":"men",
+            "brand":"Woodland",
+            "price":5999,
+            "description":" Woodland Genuine Leather High Ankle Lace Up Black Casual Boots For Men |RC3772 001",
+            "image":"https://d2lo0tepqt73yr.cloudfront.net/migProductImages/RC3772%20001-2.JPG"
+        },  {
+            "id":15,
+            "name":"Boots",
+            "category":"men",
+            "brand":"Red_Chief",
+            "price":9530,
+            "description":"Red Chief Genuine Leather High Ankle Lace Up TAN Casual Boots For Men |RC3907 006",
+            "image":"https://d2lo0tepqt73yr.cloudfront.net/migProductImages/RC3907%20006-04.JPG"
+        },
+        {
+            "id":16,
+            "name":"ETHNIC",
+            "category":"women",
+            "brand":"Bata",
+            "price":5500,
+            "description":"Women Brown Regular Boots ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/products/600619_BEIGE_99fe6fb2-e3ce-4401-b148-d04eb8844f9d_360x.jpg?v=1698844619"
+        },
+        {
+            "id":17,
+            "name":"ETHNIC",
+            "category":"women",
+            "brand":"Sparx",
+            "price":4200,
+            "description":"Women Brown Wedge Heel Regular Boots ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/products/600815_Blue_1_360x.jpg?v=1710763591"
+        },
+        {
+            "id":18,
+            "name":"ETHNIC",
+            "category":"women",
+            "brand":"Adda",
+            "price":7890,
+            "description":"Women Lace-Ups Mid-Top Wedge Regular Boots ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/600721Gold-1_360x.jpg?v=1703341200"
+        }
+        ,  {
+            "id":19,
+            "name":"Formals",
+            "category":"men",
+            "brand":"Red_Chief",
+            "price":2530,
+            "description":"Atesber Solid Formal Slipon-Black For Men",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/15269Black-1_360x.jpg?v=1698734554"
+        }
+        ,  {
+            "id":20,
+            "name":"Formals",
+            "category":"men",
+            "brand":"Adda",
+            "price":6700,
+            "description":"Formal Slippons-Brown",
+            "image":"https://inc5shop.com/cdn/shop/files/13451BROWN.jpg?v=1698733643&width=360"
+        }
+        ,  {
+            "id":21,
+            "name":"Formals",
+            "category":"men",
+            "brand":"Bata",
+            "price":4330,
+            "description":"Office Lace-Up - Black",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/products/13445_BLACK_1_360x.jpg?v=1698731893"
+        }
+        ,  {
+            "id":22,
+            "name":"Formals",
+            "category":"men",
+            "brand":"Red_Chief",
+            "price":3530,
+            "description":"Atesber Formal Lace Up-Brown For Men",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/15267_BROWN_360x.jpg?v=1721900018"
+        },  {
+            "id":23,
+            "name":"Heels",
+            "category":"women",
+            "brand":"Bata",
+            "price":3000,
+            "description":"Women Rose Gold Embellished Party Wedge Heels ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/products/1595_Rose_Gold_1_360x.jpg?v=1704799626"
+        },
+        {
+            "id":24,
+            "name":"Heels",
+            "category":"women",
+            "brand":"Clarks",
+            "price":4500,
+            "description":"Women Pink Ankle Loop Embellished Party Block Heels ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/F0534-N_Pink_1_abd5a47a-dc07-4082-b611-2d0d2e3f3f51_360x.jpg?v=1713419096"
+        },
+        {
+            "id":25,
+            "name":"Heels",
+            "category":"women",
+            "brand":"Red_Tape",
+            "price":3500,
+            "description":"Women Black Textured One Toe Solid Wedge Heels ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/F0534-N_Black_1_cbb206e0-2c1f-4ca7-be82-b4f9bdc7d7b6_360x.jpg?v=1713419080"
+        },
+        {
+            "id":26,
+            "name":"Casual_shoes",
+            "category":"men",
+            "brand":"Red_Chief",
+            "price":4500,
+            "description":"Red Chief Genuine Leather Low Ankle Lace Up Casual Fit Shoes For Men |RC3429 022",
+            "image":"https://d2lo0tepqt73yr.cloudfront.net/RC3429%20022_1709666180237.jpeg"
+        },  {
+            "id":27,
+            "name":"Casual_shoes",
+            "category":"men",
+            "brand":"Woodland",
+            "price":5500,
+            "description":"Crafted from durable nubuck, this slip-on casual shoe for men is set on flexible rubber outsole and soft PU foam insole (4mm). ",
+            "image":"https://www.woodlandworldwide.com/insta_1.JPG"
+        },  {
+            "id":28,
+            "name":"Casual_shoes",
+            "category":"men",
+            "brand":"Adidas",
+            "price":3530,
+            "description":"Beige canvas shoes from Woodland is made from the durable canvas, the upper is set on a durable outsole that is flexible and comfortable",
+            "image":"https://assets.woodlandworldwide.app/compressed/images/FGC0310S2512A/BEIGE/FGC0310S2512A_003_1.jpg"
+        },
+        {
+            "id":29,
+            "name":"Boots",
+            "category":"women",
+            "brand":"Red_Tape",
+            "price":5500,
+            "description":"Women Brown Regular Boots ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/17885_360x.jpg?v=1705053933"
+        },
+        {
+            "id":30,
+            "name":"Boots",
+            "category":"women",
+            "brand":"Bata",
+            "price":4200,
+            "description":"Women Brown Wedge Heel Regular Boots ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/800347_Navy_2_46aeb5aa-88d2-42ae-a803-ac4473e783d9_360x.jpg?v=1720605340"
+        },
+        {
+            "id":31,
+            "name":"Boots",
+            "category":"women",
+            "brand":"Nike",
+            "price":7890,
+            "description":"Women Lace-Ups Mid-Top Wedge Regular Boots ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/products/800398_Black_1_360x.jpg?v=1710764198"
+        },
+        {
+            "id":32,
+            "name":"SANDALS",
+            "category":"women",
+            "brand":"Bata",
+            "price":3000,
+            "description":"Women Gold Embellished Party Block Sandals ",
+            "image":"https://inc5shop.com/cdn/shop/files/600664GOLD.jpg?v=1703340681&width=823"
+        },
+        {
+            "id":33,
+            "name":"SANDALS",
+            "category":"women",
+            "brand":"Clarks",
+            "price":2690,
+            "description":"Women Blue Jute Finish Woven Design Wedge Heels",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/300848_Blue_1_28dff062-261e-41fb-b540-3451424d6133_360x.jpg?v=1716792279"
+        },
+        {
+            "id":34,
+            "name":"SANDALS",
+            "category":"women",
+            "brand":"Red_Tape",
+            "price":3500,
+            "description":"Women Black Textured One Toe Solid Wedge Heels ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/F0534-N_Black_1_cbb206e0-2c1f-4ca7-be82-b4f9bdc7d7b6_360x.jpg?v=1713419080"
+        },
+        {
+            "id":35,
+            "name":"Boots",
+            "category":"men",
+            "brand":"Sparx",
+            "price":6000,
+            "description":"Sparx Genuine Leather High Ankle Lace Up TAN Casual Boots For Men |RC3857 006",
+            "image":"https://d2lo0tepqt73yr.cloudfront.net/RC3857%20006-1_1714075206226.jpeg"
+        },  {
+            "id":36,
+            "name":"Boots",
+            "category":"men",
+            "brand":"Woodland",
+            "price":5999,
+            "description":" Woodland Genuine Leather High Ankle Lace Up Black Casual Boots For Men |RC3772 001",
+            "image":"https://d2lo0tepqt73yr.cloudfront.net/migProductImages/RC3772%20001-2.JPG"
+        },  {
+            "id":37,
+            "name":"Boots",
+            "category":"men",
+            "brand":"Red_Chief",
+            "price":9530,
+            "description":"Red Chief Genuine Leather High Ankle Lace Up TAN Casual Boots For Men |RC3907 006",
+            "image":"https://d2lo0tepqt73yr.cloudfront.net/migProductImages/RC3907%20006-04.JPG"
+        },
+        {
+            "id":38,
+            "name":"ETHNIC",
+            "category":"women",
+            "brand":"Bata",
+            "price":5500,
+            "description":"Women Brown Regular Boots ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/products/600619_BEIGE_99fe6fb2-e3ce-4401-b148-d04eb8844f9d_360x.jpg?v=1698844619"
+        },
+        {
+            "id":39,
+            "name":"ETHNIC",
+            "category":"women",
+            "brand":"Sparx",
+            "price":4200,
+            "description":"Women Brown Wedge Heel Regular Boots ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/products/600815_Blue_1_360x.jpg?v=1710763591"
+        },
+        {
+            "id":40,
+            "name":"ETHNIC",
+            "category":"women",
+            "brand":"Adda",
+            "price":7890,
+            "description":"Women Lace-Ups Mid-Top Wedge Regular Boots ",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/600721Gold-1_360x.jpg?v=1703341200"
+        }
+        ,  {
+            "id":41,
+            "name":"Formals",
+            "category":"men",
+            "brand":"Red_Chief",
+            "price":2530,
+            "description":"Atesber Solid Formal Slipon-Black For Men",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/15269Black-1_360x.jpg?v=1698734554"
+        }
+        ,  {
+            "id":42,
+            "name":"Formals",
+            "category":"men",
+            "brand":"Adda",
+            "price":6700,
+            "description":"Formal Slippons-Brown",
+            "image":"https://inc5shop.com/cdn/shop/files/13451BROWN.jpg?v=1698733643&width=360"
+        }
+        ,  {
+            "id":43,
+            "name":"Formals",
+            "category":"men",
+            "brand":"Bata",
+            "price":4330,
+            "description":"Office Lace-Up - Black",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/products/13445_BLACK_1_360x.jpg?v=1698731893"
+        }
+        ,  {
+            "id":44,
+            "name":"Formals",
+            "category":"men",
+            "brand":"Red_Chief",
+            "price":3530,
+            "description":"Atesber Formal Lace Up-Brown For Men",
+            "image":"https://cdn.shopify.com/s/files/1/0564/8826/3854/files/15267_BROWN_360x.jpg?v=1721900018"
+        }
+
+      
+        ]
+    }

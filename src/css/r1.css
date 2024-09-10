@@ -1,0 +1,40 @@
+#topmenu{
+    font-size:1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#homeProduct{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    margin-top: 5pxpx;
+    flex-wrap: wrap;
+    background-color: rgb(197, 226, 217);
+    box-shadow:10px -30px 20px 20px rgb(117, 198, 204);
+
+
+}
+#proHeading
+{
+    text-align: center;
+    color: rgb(6, 6, 59);
+    font-family:initial;
+    font-size:50px;
+}
+#bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+#bottom img{
+    width: 50%;
+}
+#shoppage{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
