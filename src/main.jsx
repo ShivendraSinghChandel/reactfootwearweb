@@ -5,6 +5,7 @@
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import "./css/r1.css"
+import"./css/mycart.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import store from './store.jsx';

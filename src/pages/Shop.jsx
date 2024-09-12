@@ -36,13 +36,6 @@ const addDataToCart=(id, name, cate, brand, price, desc, image)=>{
       brand:brand, price:price, description:desc,image:image, qnty:1}))
 }
 
-
-
-
-
-
-
-
 const ans=mydata.map((key)=>{
    return(
     <>
@@ -250,19 +243,19 @@ console.log(pricemydata);
 
 
 
-
             <div id="proHeading">
-        <h1> Our Premium FootWaers</h1>
-       </div>
-       
-       <div id="homeProduct">
-           
-            {displayState?ans:ans1}
-                 
-       </div>            </div>
+  <h1>Our Premium Footwear</h1>
+</div>
+
+<div id="homeProduct">
+  {displayState ? ans : ans1}
+</div>
+</div>
           </div>
         </>
     )
 }
 
 export default Shop;
+
+

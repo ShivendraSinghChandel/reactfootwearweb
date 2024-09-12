@@ -11,6 +11,9 @@ import MenProductformals from "./pages/MenProductformals";
 import WomenProduct from "./pages/womenproduct";
 import WomenProductsandal from "./pages/womenproductsandels";
 import WomenProductheels from "./pages/womenproductheels";
+import BestOffer from "./pages/Bestoffer";
+import Payment from "./pages/Payment";
+import OrderConfirmation from "./pages/OrderConfirmation";
 
 
 const App=()=>{
@@ -30,6 +33,10 @@ const App=()=>{
         <Route path="women" element={<WomenProduct/>}/>
         <Route path="Sandals" element={<WomenProductsandal/>}/>
         <Route path="Heels" element={<WomenProductheels/>}/>
+        <Route path="offer" element={<BestOffer/>}/>
+        <Route path="/payment" element={<Payment/>} />
+        <Route path="/order-confirmation" element={<OrderConfirmation />} />  
+
        </Route>
      </Routes>
     </BrowserRouter>

@@ -33,61 +33,77 @@ const TopMenu=()=>{
 
   return(
         <>
-        <div id="topmenu">
-          <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary"  style={{margin:"0"}}  >
-      <Container>
-        <Navbar.Brand href="#home"> 
-           <img src={logo} style={{borderRadius:"50%", width:"10rem"}} />
-
+     <div id="topmenu">
+  <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary" style={{ margin: "0" }}>
+    <Container fluid className="navbar-container">
+      
+      {/* Left Section: Logo */}
+      <div className="navbar-left">
+        <Navbar.Brand href="#home">
+          <img src={logo} alt="Logo" style={{ borderRadius: "50%", width: "10rem" }} />
         </Navbar.Brand>
+      </div>
+
+      {/* Center Section: Navigation Links */}
+      <div className="navbar-center">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link}  to="home">Home</Nav.Link>
-            <Nav.Link  as={Link}  to="services">Services</Nav.Link>
-            <Nav.Link as={Link}  to="offer">Sale</Nav.Link>
-            <Nav.Link as={Link}  to="blog">Blog</Nav.Link> 
-            <Nav.Link as={Link}  to="shop"> Filter </Nav.Link>  
+            <Nav.Link as={Link} to="home">Home</Nav.Link>
+            <Nav.Link as={Link} to="services">Services</Nav.Link>
+            <Nav.Link as={Link} to="offer">Sale</Nav.Link>
+            <Nav.Link as={Link} to="blog">Blog</Nav.Link>
+            <Nav.Link as={Link} to="shop">Filter</Nav.Link>
+            <Nav.Link as={Link} to="Offer">Offer</Nav.Link>
 
-           {/* MEN Dropdown */}
-           <NavDropdown title="MEN" id="men-nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/men">Shop All</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="Boots">Boots</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="Formals">Formals</NavDropdown.Item>
-                </NavDropdown>
+            {/* MEN Dropdown */}
+            <NavDropdown title="MEN" id="men-nav-dropdown">
+              <NavDropdown.Item as={Link} to="/men">Shop All</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="Boots">Boots</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="Formals">Formals</NavDropdown.Item>
+            </NavDropdown>
 
-                {/* WOMEN Dropdown */}
-                <NavDropdown title="WOMEN" id="women-nav-dropdown">
-                  <NavDropdown.Item as={Link} to="women">Shop All</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="Heels">Heels</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="Sandals">Sandals</NavDropdown.Item>
-                </NavDropdown>
-
-          </Nav>
-          <Nav>
-          <Nav.Link href="#deets">
-              <input type="text" value={searchData} onChange={(e)=>{setSearchData(e.target.value)}} />
-            </Nav.Link>
-            <Nav.Link href="#deets">
-            <IoSearch onClick={handleSearch} />
-            </Nav.Link>
-            <Nav.Link href="#deets">
-            <FaUser />
-            </Nav.Link>
-            <Nav.Link  href="#memes">
-            <a href='#' onClick={myCart}>
-            <FaShoppingCart />
-            </a>
-            
-             {DataCount<=0?"": 
-             <span style={{padding:"2px", marginLeft:"5px", border:"2px solid grey", backgroundColor:"lightblue"}}> {DataCount}</span> }
-            
-            </Nav.Link>
+            {/* WOMEN Dropdown */}
+            <NavDropdown title="WOMEN" id="women-nav-dropdown">
+              <NavDropdown.Item as={Link} to="women">Shop All</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="Heels">Heels</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="Sandals">Sandals</NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-      </Container>
-    </Navbar>
+      </div>
+
+      {/* Right Section: Search, User, Cart Icons */}
+      <div className="navbar-right">
+        <Nav.Link>
+          <input
+            type="text"
+            value={searchData}
+            onChange={(e) => setSearchData(e.target.value)}
+            placeholder="Search..."
+          />
+        </Nav.Link>
+        <Nav.Link>
+          <IoSearch onClick={handleSearch} />
+        </Nav.Link>
+        <Nav.Link>
+          <FaUser />
+        </Nav.Link>
+        <Nav.Link>
+          <a href="#" onClick={myCart}>
+            <FaShoppingCart />
+          </a>
+          {DataCount > 0 && (
+            <span>{DataCount}</span>
+          )}
+        </Nav.Link>
+      </div>
+
+    </Container>
+  </Navbar>
 </div>
+
+
         </>
     )
 }

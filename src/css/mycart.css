@@ -1,0 +1,155 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table thead {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+table thead th {
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:last-child {
+    border-bottom: none;
+}
+
+table tbody td {
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Table Image Styles */
+table tbody td img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+table tbody td img:hover {
+    transform: scale(1.1);
+}
+
+/* Quantity Icons */
+table tbody td svg {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 22px;
+    margin: 0 10px;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+table tbody td svg:hover {
+    color: #0056b3;
+    transform: scale(1.2);
+}
+
+/* Button Styles */
+button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #c82333;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Grand Total Row */
+tfoot th {
+    text-align: right;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+tfoot th:last-child {
+    color: green;
+    font-size: 24px;
+}
+
+tfoot tr {
+    background-color: #f1f3f5;
+}
+
+tfoot tr th, tfoot tr td {
+    padding: 15px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    table thead {
+        display: none;
+    }
+
+    table, table tbody, table tr, table td {
+        display: block;
+        width: 100%;
+    }
+
+    table tbody tr {
+        margin-bottom: 15px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    table tbody td {
+        text-align: right;
+        padding: 10px 5px;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    table tbody td img {
+        width: 60px;
+        height: 60px;
+    }
+
+    tfoot th {
+        text-align: center;
+        font-size: 18px;
+    }
+}
